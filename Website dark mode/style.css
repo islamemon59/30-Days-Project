@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    width: 100%;
+    background: var(--primary-color);
+    padding: 10px 30px;
+}
+
+#nav-list {
+    display: flex;
+    justify-content: center;
+}
+
+#nav-list li {
+    color: var(--secondary-color);
+    font-size: 25px;
+    list-style: none;
+    font-weight: 500;
+    margin: 10px 50px;
+}
+
+#icon {
+    width: 25px;
+    cursor: pointer;
+    top: 20px;
+    right: 100px;
+    position: absolute;
+}
+
+:root {
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+}
+
+.dark-theme {
+    --primary-color: #000106;
+    --secondary-color: #fff;
+}
+
+
+body {
+    background: var(--primary-color);
+}
