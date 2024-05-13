@@ -3,11 +3,6 @@ var phoneError = document.getElementById("phone-error");
 var emailError = document.getElementById("email-error");
 var messageError = document.getElementById("message-error");
 var submitError = document.getElementById("submit-error");
-var contactName = document.getElementById("contact-name");
-var contactPhone = document.getElementById("contact-phone");
-var contactEmail = document.getElementById("contact-email");
-var contactMessage = document.getElementById("contact-message");
-var button = document.querySelector("button");
 
 function validateName() {
     var contactName = document.getElementById("contact-name").value;
